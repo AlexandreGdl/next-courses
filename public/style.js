@@ -1,10 +1,10 @@
+import Head from 'next/head'
+
 function MyStyle() {
     return(
-        <style jsx>{`
-            body{
-                margin: 0
-            }
-        `}</style>
+        <Head>
+            <link href="css/style.css" type="stylesheet"></link>
+        </Head>
     )
   }
   
