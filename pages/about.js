@@ -11,9 +11,14 @@ function About () {
                 <h1>
                     About
                 </h1>
+                <p>Robin t'es pd</p>
             </div>
             <style jsx global>{`
             h1 {
+                font-family: 'Arial'
+            }
+
+            p{
                 font-family: 'Arial'
             }
 

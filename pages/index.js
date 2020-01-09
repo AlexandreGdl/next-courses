@@ -11,9 +11,16 @@ function Index () {
                 <h1>
                     Home
                 </h1>
+                <p>
+                    Eliott t'es pd
+                </p>
             </div>
             <style jsx global>{`
             h1 {
+                font-family: 'Arial'
+            }
+
+            p{
                 font-family: 'Arial'
             }
 
