@@ -1,9 +1,13 @@
 import Link from 'next/link';
+import Head from 'next/head';
 
 
 function Index () {
     return(
         <>
+            <Head>
+                <title>Alex's WebSite</title>
+            </Head>
             <div>
                 <Link href="/about">
                     <a>About</a>
