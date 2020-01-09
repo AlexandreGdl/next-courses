@@ -9,7 +9,7 @@ class Index extends Component {
             <>
                 <Head>
                     <title>Alex's website</title>
-                    <link href="css/style.css" type="stylesheet"></link>
+                    <link href="css/style.css" rel="stylesheet"></link>
                 </Head>
                 <Link href="/about" >
                     <a title="About Page">About</a>
