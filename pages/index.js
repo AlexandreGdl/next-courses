@@ -1,39 +1,22 @@
 import Link from 'next/link';
 import Head from 'next/head';
+import React, { Component } from 'react';
 
 
-function Index () {
-    return(
-        <>
-            <Head>
-                <title>Alex's WebSite</title>
-            </Head>
-            <div>
-                <Link href="/about">
-                    <a>About</a>
+class Index extends Component {
+    render(){
+        return(
+            <>
+                <Head>
+                    <title>Alex's website</title>
+                </Head>
+                <Link href="/about" >
+                    <a title="About Page">About</a>
                 </Link>
-                <h1>
-                    Home
-                </h1>
-                <p>
-                    Eliott t'es pd
-                </p>
-            </div>
-            <style jsx global>{`
-            h1 {
-                font-family: 'Arial'
-            }
-
-            p{
-                font-family: 'Arial'
-            }
-
-            body {
-                margin: 0;
-            }
-            `}</style>
-        </>
-    );
+            </>
+        )
+    }
 }
+
 
 export default Index
